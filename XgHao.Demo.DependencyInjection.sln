@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{94838327-D05F-4B79-BD54-9315C29E087B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8E41A438-DCA2-4672-989D-C9206002A55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XgHao.Demo.DependencyInjection.WebAPI.Foo", "XgHao.Demo.DependencyInjection.WebAPI.Foo\XgHao.Demo.DependencyInjection.WebAPI.Foo.csproj", "{134ED50D-9112-4E7C-A3A3-8B05E95014D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XgHao.Demo.DependencyInjection.Service", "XgHao.Demo.DependencyInjection.Service\XgHao.Demo.DependencyInjection.Service.csproj", "{4174FB53-C640-440D-985F-190FF6384760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{02AEC9F4-7FC2-4F50-9B88-5822E7B0ABDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XgHao.Demo.DependencyInjection.Base", "XgHao.Demo.DependencyInjection.Base\XgHao.Demo.DependencyInjection.Base.csproj", "{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134ED50D-9112-4E7C-A3A3-8B05E95014D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134ED50D-9112-4E7C-A3A3-8B05E95014D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134ED50D-9112-4E7C-A3A3-8B05E95014D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134ED50D-9112-4E7C-A3A3-8B05E95014D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4174FB53-C640-440D-985F-190FF6384760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4174FB53-C640-440D-985F-190FF6384760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4174FB53-C640-440D-985F-190FF6384760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4174FB53-C640-440D-985F-190FF6384760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{134ED50D-9112-4E7C-A3A3-8B05E95014D5} = {94838327-D05F-4B79-BD54-9315C29E087B}
+		{4174FB53-C640-440D-985F-190FF6384760} = {8E41A438-DCA2-4672-989D-C9206002A55A}
+		{1C9D87AB-AC8D-4997-8DE7-8F4FEEE28DBC} = {02AEC9F4-7FC2-4F50-9B88-5822E7B0ABDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5FE092C-93F4-4294-A1D7-63C861B01962}
+	EndGlobalSection
+EndGlobal
